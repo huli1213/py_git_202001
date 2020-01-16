@@ -12,5 +12,7 @@
 
 
 
-![picture](/home/tarena/month2/day17-1.16/picture.jpeg)
+![.](2.png)
+
+
 
