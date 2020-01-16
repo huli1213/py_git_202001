@@ -1,0 +1,24 @@
+﻿#include <stdio.h>
+
+int main(){
+  
+double d;
+  
+printf("请输入薪资:");
+  scanf("%lf",&d);
+  if(d<=1500){
+    printf("应上所得税是:%lf\n",d*0.03);
+  }else if(d<=4500){
+    printf("应上所得税是:%lf\n",d*0.1-105);
+  }else if(d<=9000){
+    printf("应上所得税是:%lf\n",d*0.2-555);
+  }else if(d<=35000){
+    printf("应上所得税是:%lf",d*0.3-1005);
+  }else if(d<=55000){
+    printf("应上所得税是:%lf\n",d*0.35-2755);
+  }else if(d<=80000){
+    printf("应上所得税是:%lf\n",d*0.4-5055);
+  }else if(d>80000){
+    printf("应上所得税是:%lf\n",d*0.45-13505);
+  }
+}

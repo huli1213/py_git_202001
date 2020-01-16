@@ -1,0 +1,135 @@
+﻿目录:文件夹/路径  索引
+/   ->  根目录(根文件夹)
+.   ->  当前目录(当前文件夹)
+..  ->  上一级目录(上一个文件夹)
+~   ->  用户主目录(主文件夹)
+			默认文件夹
+
+D:\Recreation\Need for Speed The Run Limited Edition\Need for Speed The Run Limited Edition\Data
+
+D:\Recreation\Need for Speed The Run Limited Edition\Need for Speed The Run Limited Edition
+
+/  ->  分隔符(...的...)
+D:/Recreation/Need for Speed The Run Limited Edition/Need for Speed The Run Limited Edition/Data
+
+通配符:
+	?  -> 通配
+	*  -> 通配多个字符
+	[] -> 通配一个范围
+	      [a-z][A-Z][0-9][1-9]
+
+1w
+1wq
+12345   王者荣
+1abcd
+1@ 
+
+终端命令:
+在windows下通过鼠标来操作的东西
+在linux下都可以通过命令去操作
+
+mkdir -> 创建文件夹
+格式:
+	mkdir 要创建文件夹的名字
+touch -> 创建文本文件
+格式:
+	touch 要创建文件文件名.后缀
+ls    -> 显示/查看路径下的内容
+格式:
+	ls  路径/文件夹/目录
+	ls  /
+	ls  .
+	ls  ..
+	ls  ~
+	ls  XIAOHONG
+ls 如果后面不跟路径则系统默认加上 .
+ls -a -> all查看/显示路径下的所有内容
+在linux下凡是以"."开头的文件就是隐藏文件
+ls -l -> 以详细信息显示路径下的内容
+cd  -> 切换路径/切换文件夹
+格式:
+	cd 路径/文件夹/目录
+	cd  .
+	cd  ..
+	cd  /
+	cd  ~
+	cd XIAOHONG
+cd 如果后面不跟路径则系统默认加上 ~
+ls -a -> la
+ls -l -> ll
+clear -> 清屏
+cp  -> 拷贝/复制
+格式:
+	cp 要复制谁 要复制到哪里去
+man cp 可以查找cp的所有格式方式
+
+cp -r -> 强制拷贝/复制
+格式:
+	cp -r 要复制谁 要复制到哪里去	
+mv  -> 剪切
+格式:
+	mv 要剪切谁 要剪切到哪里去
+rm -r -> 强制删除
+格式:
+	rm -r 要删除文件的名字
+ls
+HAHA HEHE HEIHEI XIAOHONG HUAHUA XIXI WOWO
+rm -r HAHA
+rm -r HAHA HEHE HUAHUA
+rm -r H* X*
+
+mkdir -> 创建文件夹
+touch -> 创建文本文件
+ls    -> 查看路径下的内容
+ls -a -> all查看/显示路径下的所有内容
+ls -l -> 以详细信息显示路径下的内容
+ls -a -> la
+前者显示带保护的隐藏文件等所有的文件
+后者不显示保护文件
+前面带. 的就是隐藏文件
+. 或者 ..是保护文件
+
+ls -l -> ll
+前者不显示隐藏文件  后者要显示隐藏文件
+
+ man ls 可以查看所有的ls 的查询项
+cd    -> 切换路径/切换文件夹
+ls 如果后面不跟路径则系统默认加上 .
+cd 如果后面不跟路径则系统默认加上 ~
+clear -> 清屏
+cp    -> 复制
+mv    -> 剪切
+rm -r -> 强制删除
+
+在 HAHA 下面创建目录结构，   分别创建dir1， dir2, dir3 目录, 分别在这三个目录下创建file1.txt,file2.txt
+
+mkdir -> 创建文件夹
+touch -> 创建文本文件
+ls    -> 查看路径下的内容
+cd    -> 切换路径/切换文件夹
+clear -> 清屏
+cp    -> 复制
+mv    -> 剪切
+rm -r -> 强制删除
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
